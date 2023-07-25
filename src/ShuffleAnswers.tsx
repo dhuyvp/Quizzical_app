@@ -55,7 +55,7 @@ const ShuffleAnswers = (props : any) => {
         });
         const id = getIndexByTarget(buttonClicked);
         if (arrayButtons[props.idItem * 4 + id].style)
-            arrayButtons[props.idItem * 4 + id].style.background ='#4D5B9E';
+            arrayButtons[props.idItem * 4 + id].style.background ='#D6DBF5';
 
         const newState = props.buttonStates;
         newState[props.idItem]=id;
@@ -75,26 +75,26 @@ const ShuffleAnswers = (props : any) => {
         {props.isShowResult?
             <div>
                 <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[0][0]}} style={{
-                    background: props.correctState[props.idItem]===0?'green': (props.buttonStates[props.idItem]===0?'red':'white'),
+                    background: props.correctState[props.idItem]===0?'#94D7A2': (props.buttonStates[props.idItem]===0?'#F8BCBC':'white'),
                     
                 }}/> 
                 <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[1][0]}} style={{
-                    background: props.correctState[props.idItem]===1?'green': (props.buttonStates[props.idItem]===1?'red':'white'),       
+                    background: props.correctState[props.idItem]===1?'#94D7A2': (props.buttonStates[props.idItem]===1?'#F8BCBC':'white'),       
                 }}/> 
                 <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[2][0]}} style={{
-                    background: props.correctState[props.idItem]===2?'green': (props.buttonStates[props.idItem]===2?'red':'white'),
+                    background: props.correctState[props.idItem]===2?'#94D7A2': (props.buttonStates[props.idItem]===2?'#F8BCBC':'white'),
                 }}/> 
                 <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[3][0]}} style={{
-                    background: props.correctState[props.idItem]===3?'green': (props.buttonStates[props.idItem]===3?'red':'white'),
+                    background: props.correctState[props.idItem]===3?'#94D7A2': (props.buttonStates[props.idItem]===3?'#F8BCBC':'white'),
                 }}/> 
                 
             </div>
             
             :<div>
-                <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[0][0]}} onClick={handleClickAnswer}/> 
-                <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[1][0]}} onClick={handleClickAnswer}/> 
-                <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[2][0]}} onClick={handleClickAnswer}/> 
-                <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[3][0]}} onClick={handleClickAnswer}/> 
+                <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[0][0]}} onClick={handleClickAnswer} style={{background:'white'}}/> 
+                <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[1][0]}} onClick={handleClickAnswer} style={{background:'white'}}/> 
+                <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[2][0]}} onClick={handleClickAnswer} style={{background:'white'}}/> 
+                <button className='Button-answer' dangerouslySetInnerHTML={{__html:answerArray[3][0]}} onClick={handleClickAnswer} style={{background:'white'}}/> 
 
             </div>
         }
