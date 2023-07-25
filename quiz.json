@@ -1,0 +1,65 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the anime Noragami who is one of the main protagonists?",
+            "correct_answer": "Yukine",
+            "incorrect_answers": [
+                "Karuha",
+                "Mineha",
+                "Mayu"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In season one of the Netflix political drama &quot;House of Cards&quot;, what government position does Frank Underwood hold?",
+            "correct_answer": "House Majority Whip",
+            "incorrect_answers": [
+                "Attorney General",
+                "President",
+                "Chief of Staff"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the default name of the Vampire character in &quot;Shining Soul 2&quot;.",
+            "correct_answer": "Bloodstar",
+            "incorrect_answers": [
+                "Sachs",
+                "Dracuul",
+                "Alucard"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many bits make up the significand portion of a single precision floating point number?",
+            "correct_answer": "23",
+            "incorrect_answers": [
+                "8",
+                "53",
+                "15"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Marvel Universe, the planet of Svartalfheim is home to what race?",
+            "correct_answer": "Dark Elves",
+            "incorrect_answers": [
+                "Frost Giants",
+                "Kronans",
+                "Skrulls"
+            ]
+        }
+    ]
+}

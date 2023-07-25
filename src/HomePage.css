@@ -1,0 +1,48 @@
+.Name-home {
+    width: 412px;
+    height: 41px;
+    flex-shrink: 0;
+    margin-top: 218px;
+
+    color: #293264;
+    text-align: center;
+    font-family: Karla;
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Description-home {
+    width: 318px;
+    height: 19px;
+    flex-shrink: 0;
+
+    margin-top: 7px;
+
+    color: #293264;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Start-quiz {
+    width: 193px;
+    height: 52px;
+    flex-shrink: 0;
+    margin-top: 29px;
+
+    border-radius: 15px;
+    background: #4D5B9E;
+
+    color: #F5F7FB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
